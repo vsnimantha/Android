@@ -1,0 +1,93 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#151515"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="2dp"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="MS SQL"
+        android:textColor="#ffffff"
+        android:textSize="25sp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_gravity="center_horizontal"
+        android:src="@mipmap/ic_launcher"
+        android:maxHeight="20dp"
+        android:maxWidth="20dp"/>
+
+    <EditText
+        android:id="@+id/txtid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="ENTER COMPANY ID"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff" />
+    <EditText
+        android:id="@+id/txtname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ENTER COMPANY NAME"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff" />
+    <EditText
+        android:id="@+id/txtaddrs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ENTER COMPANY ADDRESS"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff" />
+    <EditText
+        android:id="@+id/txtphn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ENTER COMPANY PHONE 1"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff" />
+    <EditText
+        android:id="@+id/txtphn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ENTER COMPANY PHONE 2"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff" />
+    <EditText
+        android:id="@+id/txtfax"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ENTER COMPANY FAX"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff" />
+    <EditText
+        android:id="@+id/txtemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ENTER COMPANY EMAIL"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff" />
+    <EditText
+        android:id="@+id/txtweb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ENTER COMPANY WEB"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff" />
+
+    <Button
+        android:id="@+id/btnadd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SAVE" />
+
+</LinearLayout>
